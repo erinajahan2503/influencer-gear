@@ -164,3 +164,125 @@ nav.navigation-panel > ul > li > a {
   margin-top: 25px;
   margin-right: 25px;
 }
+
+
+
+/**************** Footer Area ****************/
+.footer-area {
+  background-color: #0a0826;
+  text-align: center;
+  height: 239px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.footer-area h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 55px 0 5px 0;
+}
+
+.footer-area p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(211, 211, 211);
+  padding-bottom: 8px;
+}
+
+.fab {
+  color: #fff;
+  background-color: #ffffff4b;
+  padding: 10px;
+  border-radius: 17px;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+/**************** Responsive Area ****************/
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 95%;
+  }
+  /* Header Area */
+
+  .navigation-panel {
+    display: none;
+  }
+  .logo-area h2 {
+    text-align: center;
+  }
+  header.header-area {
+    display: block;
+    padding: 10px;
+  }
+
+  /* Banner Area */
+  section.banner-area {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .banner-content,
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner-content h1 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .banner-content p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-content a {
+    margin-left: 25%;
+  }
+
+  .camera-img img {
+    width: 100%;
+    align-items: center;
+  }
+
+  /* Brand Logo */
+  section.brand-logo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 35px;
+    padding: 15px 0;
+    text-align: center;
+    row-gap: 15px;
+  }
+
+  img.image-responsive {
+    width: 75%;
+  }
+
+  /* Product Area */
+  section.product-area {
+    margin-top: 50px;
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    justify-content: space-around;
+  }
+
+  .blog-area {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    margin-bottom: 45px;
+  }
+}
+
