@@ -97,3 +97,70 @@ nav.navigation-panel > ul > li > a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.137);
   padding: 10px 0;
 }
+/**************** Product-Area ****************/
+.product-area {
+  margin: 100px 0 100px 0;
+}
+
+.product-area h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 35px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  justify-content: space-around;
+}
+/* Product Item 1 */
+
+.product-item {
+  margin: 0 50px 0 50px;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.product-item h2 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #18191f;
+  line-height: 40px;
+  margin: 16px 0 6px 0;
+}
+
+.product-item h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: #000;
+  font-weight: 400;
+}
+
+.fa-star,
+.fa-star-half-alt {
+  font-size: 16px;
+  color: orange;
+  margin: 10px 0 10px 0;
+}
+
+.product-item p {
+  width: 80%;
+  size: 14px;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 15px;
+}
+
+.btn-see-more {
+  text-decoration: none;
+  color: #e02c6d;
+  font-weight: 700;
+  font-size: 16px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 25px;
+}
